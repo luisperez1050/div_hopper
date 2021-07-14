@@ -1,2 +1,2 @@
-# div_hopper
-A fun game to hop between divs
+# html_layout
+Going through the important parts for a great resuable layout
