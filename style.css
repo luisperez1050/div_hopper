@@ -1,0 +1,59 @@
+:root {
+	--primary-background: #B0C4DE;
+	--card-background: #F0F0F0;
+	--nav-bar: #383838;
+	--text-color: #282828;
+	--card-border: #D8D8D8;
+}
+
+body {
+	background-color: var(--primary-background);
+	color: var(--text-color);
+	min-height: 100vh;
+}
+
+nav,
+section {
+	border-radius: 5px;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 8px;
+	text-align: center;
+	box-shadow: 2px 4px 8px var(--text-color);
+}
+
+nav + section,
+section + section {
+	margin-top: 5px;
+}
+
+nav {
+	background-color: var(--nav-bar);
+	display: flex;
+}
+
+nav a {
+	flex: content;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--card-border);
+	border: 1px solid var(--card-border);
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+nav a:hover {
+	background-color: var(--card-border);
+	border-color:transparent;
+	color: var(--nav-bar);
+}
+
+section { 
+	background-color: var(--card-background);
+}
+
+code, samp {
+	border: 1px solid gray;
+	background-color: lightgray;
+}
