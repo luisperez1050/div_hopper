@@ -6,13 +6,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
+		header,
+		main,
+		footer {
+			padding: 0 5px;
+		}
+		footer {
+			margin-top: 15px;
+		}
 		.container {
 			display: inline-block;
 		}
 
 		.aside-container {
 			float: right;
-			width: 32%;
+			width: 28%;
+			background-color: lightgray;
+			border: 1px solid black;
+			border-radius: 4px;
+			padding: 15px;
+		}
+		h1,
+		h2 {
+			color: #2D3B6B;
+			text-decoration: underline;
+		}
+		nav a {
+			color: #000;
+			text-decoration: none;
+			padding: 8px;
+		}
+		nav a:first-of-type {
+			padding-left: 0;
+		}
+		nav a:last-of-type {
+			padding-right: 0;
 		}
 		form label,
 		form input {
@@ -22,7 +50,20 @@
 			font-weight: bold;
 		}
 		form input {
-			margin-bottom: 8px;;
+			margin-bottom: 8px;
+			padding: 5px;
+		}
+		form button {
+			background: transparent;
+			border: 2px solid black;
+			border-radius: 4px;
+			padding: 5px;
+			width: 28%;
+		}
+		form button:hover,
+		form button:active {
+			background: black;
+			color: white;
 		}
 	</style>
 </head>
